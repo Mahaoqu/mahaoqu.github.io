@@ -1,17 +1,49 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `GHS Tech`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Haoqu Ma`,
+      summary: `who has not learned React.js.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Mahaoqu's blog.`,
+    siteUrl: `https://mahaoqu.gtsb.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mahaoqu`,
+      weibo: `https://weibo.com/u/5123436051`
     },
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-typescript',
+      options: {
+        isTSX: true,
+        jsxPragma: 'React',
+        allExtensions: true,
+      },
+    },
+    {
+      resolve: "gatsby-remark-prismjs",
+      options: {
+        classPrefix: "language-",
+        inlineCodeMarker: null,
+        showLineNumbers: true,
+        noInlineHighlight: false,
+        languageExtensions: [
+          {
+            language: "superscript",
+            extend: "javascript",
+            definition: {
+              superscript_types: /(SuperType)/,
+            },
+            insertBefore: {
+              function: {
+                superscript_keywords: /(superif|superelse)/,
+              },
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -53,7 +85,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `G-H3B9GZJW46`,
       },
     },
     `gatsby-plugin-feed`,
@@ -70,6 +102,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

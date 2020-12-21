@@ -1,108 +1,20 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: 起始
+date: 2017-07-08 23:13:12
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+今天真是疲惫的一天。
 
-## On deer horse aboard tritely yikes and much
+我用整整一个晚上才折腾出来这一个小小的博客。中间走了不少弯路。本来十点多的时候可以结束了，但是滑动菜单又要求用NodeJs 6.2版本以上。我下载二进制包、调试软连接、从网上复制Shell脚本、一次次rm -rf，我生怕自己把电脑搞坏。即使这样，我也没成功的安装新版本的NodeJs。
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+当然啦。建博客不是什么稀奇事情。我小的时候（甚至是在小学）就有人用简易的WordPress来写博客。这种事并没有多大难度，只要有一颗折腾的心就行。我一直没有开始的原因应该是我一直不知道能写什么。以往在QQ空间里也算是写了不少日志，也有一些点赞。但是我后来又不喜欢了。这总有一种讨好身边的人的感觉，更何况很多人还不愿意看到我写的这些东西。总之，在GitHub这个程序员的乐土上有一块小小的地方可以抒发情感，也是一种幸运。
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+转专业的面试名单已经下来了，最终计算机科学与技术专业将淘汰一半的人。我很害怕如果我没转成会怎样。我对计算机科学的兴趣应该说还是比较强烈的。有时候我也会被其他的事情所分心，尤其是在刚刚深入接触某一件事情的时候。比如数学啦，哲学啦，社会学啦。人的一生中效率比较高，也就是精力充沛的时候本来就是极少数。而这些少数的时间还要分给许许多多的东西。如果人能够专一一些，是不是成功的几率会更高呢？
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+大脑的思考方式有时很想一个栈，重要的事情先入栈，但是紧急的事情会优先进入大脑的处理区域里。我现在的任务有很多，长远来讲要准备明年春天的托福考试。这个栈底的任务反而是最难最重要的。现在在读《计算机程序的构造与解释》，现在在列表处理的这里我真的读不下去，尤其是因为对数学和复杂思考的恐惧。但即使只读了一章半，我也能深深的感受到这本书中透露出的程序设计的魅力。此外还有Python上数据可视化和Django网络框架的学习。这算是工程能力的一种培养。对于计算机来说科学与工程一样重要（另外一个敢这么说的估计就是材料专业），而且这很有趣。前几天我又买了几本书。买书这种事的确是令我心酸。很多书都值得读但已经被我搁置已久。那几本小说已经在书架上放了很久了。更不用说经济学、社会学、心理学的好几本大部头了。
 
-### Overlaid the jeepers uselessly much excluding
+因为在计算机实践课上重画软件里的图片素材，我对设计“又”产生了兴趣。现在觉得，如果能换电脑，一台MacBook一定是极好的，在上面用XCode还可以有机会开发好玩的iOS应用。
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+人总是想逃避一些事情，然后另一些无关紧要的事情就成了这一挡箭牌。人在规划的时候一定是想得无比好的。如果我全心投入，也能取得很高的成就。但悖论就在于我不能。我的“灵感时刻”，也就在一周内出现那么几个小时，可能是一个下午或一个晚上。在那时我心态无比冷静，思维无比活跃，仿佛达到了物我一体化入臻境的状态，一日即通晓之前几个月百思不得其解的真理。其余的时间就是浑浑噩噩的打游戏，晚起，刷知乎。偶尔看看技术书和文章，也就是在舒适区漫游。然后在某个漆黑的深夜——或者没有——看到知乎上曾博的提问突然反省起自己的失败。我想大多数人都是如此吧。
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
-
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-### According a funnily until pre-set or arrogant well cheerful
-
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
-
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
-
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+我想我该睡了。目前的最近的任务是写完材料专业概述的论文，之后做完计算机实践的小程序，再就是去找导员签成绩单，准备转专业的面试，再之后大概就是暑假了吧。上一个暑假我过的无比痛苦、煎熬、难堪，甚至回想起自己的每一个有关盛夏的回忆都是如此。我是否会一再重蹈覆辙呢？
