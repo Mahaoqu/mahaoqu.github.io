@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import { ThemeProvider, createMuiTheme } from '@material-ui/core'
-import Helmet from 'react-helmet'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Subject } from 'rxjs'
 
 import Toggle from './Toggle'
@@ -10,30 +9,22 @@ import moon from '../assets/moon.png'
 import { rhythm } from '../utils/typography'
 import moment from 'moment'
 
-const defaultTheme = createMuiTheme({})
+const defaultTheme = createTheme({})
 
-const Layout: React.FC<{
-  title: string
-}> = props => {
+const Head = () => <>
+  <meta name='theme-color'
+    content='#282c35' />
+</>
+
+const Layout = props => {
   const { title, children } = props
-  const [theme, setTheme] = useState<'dark' | 'light' | null>(null)
-  const themeSubject = useMemo(() => new Subject<'light' | 'dark'>(), [])
-  const themeConfig = useMemo(
-    () =>
-      createMuiTheme({
-        ...defaultTheme,
-        palette: {
-          // todo
-          ...defaultTheme.palette,
-          type: theme || 'light',
-        },
-      }),
-    [theme]
-  )
+  const [theme, setTheme] = useState(null)
+  const themeSubject = useMemo(() => new Subject(), [])
+
   useEffect(() => {
     setTheme(
       (document.body.className =
-        (window.localStorage.getItem('theme') as 'dark' | 'light' | null) ||
+        (window.localStorage.getItem('theme')) ||
         'light')
     )
     themeSubject.subscribe(themeKey => {
@@ -46,6 +37,7 @@ const Layout: React.FC<{
       }
     })
   }, [])
+  
   const data = useStaticQuery(graphql`
     query LayoutQuery {
       site {
@@ -73,7 +65,7 @@ const Layout: React.FC<{
     </h3>
   )
   return (
-    <ThemeProvider theme={themeConfig}>
+    <ThemeProvider theme={defaultTheme}>
       <div
         style={{
           color: 'var(--textNormal)',
@@ -84,14 +76,7 @@ const Layout: React.FC<{
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <Helmet
-          meta={[
-            {
-              name: 'theme-color',
-              content: theme === 'light' ? '#ffa8c5' : '#282c35',
-            },
-          ]}
-        />
+        <Head />
         <header
           style={{
             display: 'flex',
@@ -124,7 +109,7 @@ const Layout: React.FC<{
                 ),
               }}
               checked={theme === 'dark'}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              onChange={e =>
                 themeSubject.next(e.target.checked ? 'dark' : 'light')
               }
             />
