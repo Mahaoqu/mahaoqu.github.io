@@ -12,7 +12,7 @@ module.exports = {
     title: `HQ Software Foundation`, 
     author: {
       name: `Haoqu Ma`,
-      summary: `who has not learned React.js.`,
+      summary: ``,
     },
     description: `Mahaoqu's blog.`,
     siteUrl: `https://mahaoqu.github.io/`,
