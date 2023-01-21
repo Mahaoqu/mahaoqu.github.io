@@ -11,7 +11,7 @@ last_edited: 2023-01-18 12:00:00
 
 *但是，该怎么学习一些基础知识呢？*
 
-无论什么时候，学习JavaScript最简单的方式都是新建一个html文件，然后编辑它，通过浏览器打开就能够得到一个网站了，可以在`style`标签中写CSS，在`script`标签中写JavaScript。用这种方式可以通过不同的标签利用Web的功能，为网页添加布局，增加一些交互，甚至可以制作一些简单的动画。具体我们可以参考。这时候只要引入著名的 BootStrap 库（通过HTML标签），就可以做出相当漂亮的网站了！
+无论什么时候，学习JavaScript最简单的方式都是新建一个`.html`文件，然后编辑它，通过浏览器打开就能够得到一个网站了，可以在`style`标签中写CSS，在`script`标签中写JavaScript。用这种方式可以通过不同的标签利用Web的功能，为网页添加布局，增加一些交互，甚至可以制作一些简单的动画。具体可以参考 [MDN](https://developer.mozilla.org/) 上的教程，它提供了完整的 HTML标签、DOM 操作、CSS 以及 Web API 的教程！熟悉之后，只要引入著名的 BootStrap 库（通过标签），就可以做出相当漂亮且功能完善的网站了！
 
 由于跨域的限制，我们有时需要一个本地服务器来打开HTML文件，这时候用一个Web 服务器就可以。
 
@@ -23,7 +23,7 @@ $ python -m http.server
 
 *那么该怎么使用现代化的 JavaScript 库和开发方式呢？*
 
-现代的Web开发生态基于[Node.js](https://nodejs.org/)，它是一个本地的JavaScript运行时。它附带的包管理器 [npm](https://www.npmjs.com/) 能够让我们快速安装第三方库，并管理包的版本和依赖关系，也可以在它的网站上查询库的不同版本。
+现代的Web开发生态基于 [Node.js](https://nodejs.org/)，它是一个本地的JavaScript运行时。它附带的包管理器 [npm](https://www.npmjs.com/) 能够让我们快速安装第三方库，并管理包的版本和依赖关系，也可以在它的网站上查询库的不同版本。
 
 我们有了一种新的方式构建网站：在Node.js项目中编辑JavaScript代码，然后把它和HTML文件打包在一起。[Webpack](https://webpack.js.org/) 是目前主流的打包工具，它可以方便而灵活地的进行扩展，但是也因为配置过于复杂而饱受诟病。Webpack的新版本有了约定大于配置的思想，不写配置文件依然能够进行基本的打包操作。
 
