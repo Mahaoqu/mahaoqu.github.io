@@ -7,7 +7,7 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import StaticImage from "gatsby-plugin-image"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -43,7 +43,7 @@ const Bio = () => {
   return (
     <div className="bio">
       {avatar && (
-        <Image
+        <StaticImage
           fixed={avatar}
           alt={author?.name || ``}
           className="bio-avatar"

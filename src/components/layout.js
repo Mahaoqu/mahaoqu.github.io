@@ -2,12 +2,12 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Subject } from 'rxjs'
+import moment from 'moment'
 
 import Toggle from './Toggle'
 import sun from '../assets/sun.png'
 import moon from '../assets/moon.png'
 import { rhythm } from '../utils/typography'
-import moment from 'moment'
 
 const defaultTheme = createTheme({})
 
