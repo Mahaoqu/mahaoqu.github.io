@@ -13,6 +13,7 @@
     "@mui/styles": "^5.11.2",
     "gatsby": "^5.8.0",
     "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-clarity": "^1.0.1",
     "gatsby-plugin-feed": "^5.8.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.3.1",

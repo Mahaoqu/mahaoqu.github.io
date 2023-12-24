@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `HQ Software Foundation`, 
+    title: `HQ Software Foundation`,
     author: {
       name: `Haoqu Ma`,
       summary: ``,
@@ -25,6 +25,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-pnpm`,
+    {
+      resolve: `gatsby-plugin-clarity`,
+      options: {
+        clarity_project_id: `kaq6nggugm`,
+        enable_on_dev_env: true
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
