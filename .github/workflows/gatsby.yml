@@ -40,8 +40,6 @@ jobs:
         with:
           node-version: "21"
           cache: npm
-        with:
-          version: 8
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
