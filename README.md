@@ -51,9 +51,6 @@ gatsby-omni-font-loader # font
 typography
 typography-theme-github # maybe should be updated...
 
-# css
-@mui/styles
-@mui/material
 
 # code
 prismjs

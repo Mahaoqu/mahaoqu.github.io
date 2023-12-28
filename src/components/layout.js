@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Subject } from 'rxjs'
 import moment from 'moment'
 
@@ -9,7 +8,6 @@ import sun from '../assets/sun.png'
 import moon from '../assets/moon.png'
 import { rhythm } from '../utils/typography'
 
-const defaultTheme = createTheme({})
 
 const Head = () => <>
   <meta name='theme-color'
@@ -65,7 +63,6 @@ const Layout = props => {
     </h3>
   )
   return (
-    <ThemeProvider theme={defaultTheme}>
       <div
         style={{
           color: 'var(--textNormal)',
@@ -126,7 +123,6 @@ const Layout = props => {
           with <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
-    </ThemeProvider>
   )
 }
 

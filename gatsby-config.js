@@ -24,7 +24,6 @@ module.exports = {
   pathPrefix: "/mahaoqu.github.io",
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-pnpm`,
     {
       resolve: `gatsby-plugin-clarity`,
       options: {

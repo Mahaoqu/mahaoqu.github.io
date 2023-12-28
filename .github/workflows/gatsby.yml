@@ -36,7 +36,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node
-        uses: pnpm/action-setup@v2
+        uses: actions/setup-node@v3
+        with:
+          node-version: "21"
+          cache: npm
         with:
           version: 8
       - name: Setup Pages
@@ -57,11 +60,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
-        run: pnpm run build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
